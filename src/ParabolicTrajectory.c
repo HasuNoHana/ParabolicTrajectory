@@ -137,43 +137,7 @@ int main(int argc, char* argv[]) {
 	double mangle = findBigestAngle(arr, &range);//angle is in radians
 	double speed0 = getSpeedFromAngle(mangle, range);
 	printf("Speed0 = %lf Angle = %lf", speed0, (mangle * 180 ) / PI);
-
-	/*for( int i = 0; i < MAX_N_OBSTAC; i++)
-	{
-		printf("x:%d y:%d", arr[i].dist, arr[i].high);
-	}*/
-
-
-
-//	char c[50];
-//	int i=0;
-//	c[0] = getchar() -48;
-//	while((i<50)&&(c[i-1]!=EOF))
-//	{
-//		c[i] = getchar() -48;
-//		i++;
-////	}
-//	for( int i=0; i<50; i++)
-//	{
-//		printf(" %d ", s[i]-48);
-//	}
-
-
-
-
-	/*while(eof != true)
-	{
-		int w = readCoordinate(& eof);
-	}*/
-	//int w = readCoordinate();
-	//printf("%d", w);
-	//int x = readCoordinate();
-		//printf("%d", x);
-	/*char c = getchar();
-	printf("%c", c);
-	 ungetc(c, stdin);
-	 char b = getchar();
-	 printf("%c", b);*/
+	
 	return 0;
 }
 
